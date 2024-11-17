@@ -1,2 +1,3 @@
 mixin:
   - ubsan.mixin
+  - lto.mixin

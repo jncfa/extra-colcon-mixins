@@ -1,6 +1,6 @@
 {
     "build": {
-        "tsan": {
+        "ubsan": {
             "cmake-args": [
                 "-DCMAKE_C_FLAGS='-fsanitize=undefined -O2 -g -fno-omit-frame-pointer'",
                 "-DCMAKE_CXX_FLAGS='-fsanitize=undefined -O2 -g -fno-omit-frame-pointer'"

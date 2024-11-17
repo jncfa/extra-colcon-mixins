@@ -1,0 +1,8 @@
+{
+    "build": {
+        "lto": {
+            "cmake-args": [
+                "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION='TRUE'",            ]
+        }
+    }
+}
